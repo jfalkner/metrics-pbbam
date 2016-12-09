@@ -5,7 +5,7 @@ import java.nio.file.Path
 
 object PacBioBam {
 
-  val version = "0.0.1"
+  val version = "0.0.3"
 }
 
 object Subreads {
