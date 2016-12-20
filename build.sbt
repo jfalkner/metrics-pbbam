@@ -1,6 +1,6 @@
 name := "itg_metrics_pbbam"
 
-version in ThisBuild := "0.0.3"
+version in ThisBuild := "0.0.4"
 
 organization in ThisBuild := "com.pacb"
 
@@ -19,7 +19,7 @@ libraryDependencies ++= {
   )
 }
 
-lazy val metrics = RootProject(uri("https://github.com/jfalkner/metrics.git#0.2.2"))
+lazy val metrics = RootProject(uri("https://github.com/jfalkner/metrics.git#0.2.3"))
 //lazy val metrics = RootProject(file("/Users/jfalkner/tokeep/git/jfalkner/metrics"))
 
 val main = Project(id = "itg_metrics_pbbam", base = file(".")).dependsOn(metrics)
